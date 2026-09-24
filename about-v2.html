@@ -380,15 +380,15 @@ footer p{margin-bottom:6px;}
         I've been fixing cars for over 10 years, and I still personally oversee every job that comes through this shop. Alongside my crew, we handle everything from a basic oil change to a full engine or transmission rebuild.
       </p>
       <p style="color:var(--steel); margin-bottom:16px;" data-en="I'm a graduate of Universal Technical Institute (UTI), trained in automotive technology before opening this shop.">
-        I'm a graduate of Universal Technical Institute (UTI), trained in automotive technology before opening this shop.
+        I'm a graduate from --, trained in automotive technology before opening this shop.
       </p>
       <p style="color:var(--steel); margin-bottom:16px;" data-en="Hakuna Matata Auto Repair is a small, hands-on shop  not a big chain. That means direct communication, no handoffs between departments, and pricing that reflects real labor, not overhead."
         >
-        Hakuna Matata Auto Repair is a small, hands-on shop  not a big chain. That means direct communication, no handoffs between departments, and pricing that reflects real labor, not overhead.
+        Hakuna Matata Auto Repair is a small, hands-on shop and not a big chain. That means direct communication, no handoffs between departments, and pricing that reflects real labor, not overhead.
       </p>
-      <p style="color:var(--steel);" data-en="Quality work, honest prices, and customer satisfaction  that is the Hakuna Matata way. No worries, we've got your car."
+      <p style="color:var(--steel);" data-en="Quality work, honest prices, and customer satisfaction and that is the Hakuna Matata way. No worries, we've got your car."
         >
-        Quality work, honest prices, and customer satisfaction  that is the Hakuna Matata way. No worries, we've got your car.
+        Quality work, honest prices, and customer satisfaction and that is the Hakuna Matata way. No worries, we've got your car.
       </p>
       <div class="stat-row">
         <div class="stat"><b>10+</b><span data-en="Years Experience">Years Experience</span></div>
@@ -407,7 +407,7 @@ footer p{margin-bottom:6px;}
     <div class="section-head">
       <div class="eyebrow" data-en="The Crew">The Crew</div>
       <h2 data-en="Meet the team">Meet the team</h2>
-      <p data-en="Every job at Hakuna Matata Auto Repair is overseen by Samuel and handled by a small, trusted crew  not rotating techs you've never met.">Every job at Hakuna Matata Auto Repair is overseen by Samuel and handled by a small, trusted crew  not rotating techs you've never met.</p>
+      <p data-en="Every job at Hakuna Matata Auto Repair is overseen by Samuel and handled by a small, trusted crew and not rotating techs you've never met.">Every job at Hakuna Matata Auto Repair is overseen by Samuel and handled by a small, trusted crew and not rotating techs you've never met.</p>
     </div>
     <div class="team-grid">
       <div class="team-card">
@@ -436,7 +436,7 @@ footer p{margin-bottom:6px;}
       <h2 data-en="What you can expect">What you can expect</h2>
     </div>
     <div class="values-grid">
-      <div class="value-card"><h4 data-en="Straight Talk">Straight Talk</h4><p data-en="You get a real explanation of what's wrong and what it costs  before any work starts.">You get a real explanation of what's wrong and what it costs  before any work starts.</p></div>
+      <div class="value-card"><h4 data-en="Straight Talk">Straight Talk</h4><p data-en="You get a real explanation of what's wrong and what it costs and before any work starts.">You get a real explanation of what's wrong and what it costs and before any work starts.</p></div>
       <div class="value-card"><h4 data-en="Your Parts or Ours">Your Parts or Ours</h4><p data-en="Bring your own parts to save money, or we'll source them for you. Either way works.">Bring your own parts to save money, or we'll source them for you. Either way works.</p></div>
       <div class="value-card"><h4 data-en="Individuals & Trade">Individuals &amp; Trade</h4><p data-en="We work with regular drivers, dealerships needing recon work, and junkyards alike.">We work with regular drivers, dealerships needing recon work, and junkyards alike.</p></div>
     </div>
@@ -468,7 +468,7 @@ footer p{margin-bottom:6px;}
 (function(){
   // EDIT THESE THREE VALUES with Samuel's real payment info before going live:
   var STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK'; // Create in Stripe Dashboard > Payment Links, enable "customer can change amount"
-  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials Ã¢ enables the full embedded PayPal button
+  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials enables the full embedded PayPal button
   var PAYPAL_ME_LINK = 'https://paypal.me/HakunaMatataAutoRepair'; // Fallback used until a PayPal Client ID is configured above Ã¢ just a plain link, works immediately, no setup
 
   function buildModal(){
@@ -539,7 +539,7 @@ footer p{margin-bottom:6px;}
         },
         onApprove: function(data, actions) {
           return actions.order.capture().then(function(details) {
-            alert(document.documentElement.lang === 'es' ? 'Ã¡Pago completado! Gracias.' : 'Payment complete! Thank you.');
+            alert(document.documentElement.lang === 'es' ? '¡Pago completado! Gracias.' : 'Payment complete! Thank you.');
             closeModal();
           });
         }
