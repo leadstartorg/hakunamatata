@@ -435,7 +435,7 @@ document.getElementById('checkAvailBtn').addEventListener('click', function(e){
     <div class="section-head">
       <div class="eyebrow">What We Fix</div>
       <h2>Every job, done right.</h2>
-      <p>From a quick oil change to full engine diagnostics  quality work, honest prices, customer satisfaction.</p>
+      <p>From a quick oil change to full engine diagnostics and quality work, honest prices, customer satisfaction.</p>
     </div>
     <div class="services-grid">
       <div class="service-card" data-ghost="01"><div class="num">01</div><h3>Engine Repair &amp; Diagnostics</h3><p>Diagnostics, repair, and full rebuilds.</p></div>
@@ -458,7 +458,7 @@ document.getElementById('checkAvailBtn').addEventListener('click', function(e){
     <div class="about-photo">[ Photo of Samuel in the shop ]</div>
     <div>
       <div class="eyebrow">The Mechanic</div>
-      <blockquote data-en="I've been fixing cars for over 10 years  I personally oversee every job that comes through this shop.">"I've been fixing cars for over 10 years and I personally oversee every job that comes through this shop."</blockquote>
+      <blockquote data-en="I've been fixing cars for over 10 years and I personally oversee every job that comes through this shop.">"I've been fixing cars for over 10 years and I personally oversee every job that comes through this shop."</blockquote>
       <div class="cite">Samuel <span> Owner &amp; Mechanic, Hakuna Matata Auto Repair</span></div>
      <div class="stat-row"><div class="stat"><b>10+</b><span>Years Experience</span></div><div class="stat"><b>100mi</b><span>Service Radius</span></div><div class="stat"><b>5.0</b><span>Google Rating</span></div><div class="stat"><b>9</b><span>Services Offered</span></div></div>
     </div>
@@ -477,7 +477,7 @@ document.getElementById('checkAvailBtn').addEventListener('click', function(e){
       <div>
         <h4 data-en="Contact">Contact</h4>
         <p>469-652-5336</p>
-        <p data-en="MonSat 7:00AM6:00PM">MonSat 7:00AM6:00PM</p>
+        <p data-en="MonSat 7:00AM6:00PM">Mon-Sat 7:00AM6:00PM</p>
         <p data-en="Sunday: Closed">Sunday: Closed</p>
       </div>
       <div>
@@ -494,13 +494,13 @@ document.getElementById('checkAvailBtn').addEventListener('click', function(e){
 </footer>
 
 <script>
-// Hakuna Matata Auto Repair Ã¢ Pay Invoice modal
+// Hakuna Matata Auto Repair Pay Invoice modal
 // Presents a simple amount entry + two payment options, no jargon required from the customer.
 
 (function(){
   // EDIT THESE THREE VALUES with Samuel's real payment info before going live:
   var STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK'; // Create in Stripe Dashboard > Payment Links, enable "customer can change amount"
-  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials Ã¢ enables the full embedded PayPal button
+  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials enables the full embedded PayPal button
   var PAYPAL_ME_LINK = 'https://paypal.me/HakunaMatataAutoRepair'; // Fallback used until a PayPal Client ID is configured above Ã¢ just a plain link, works immediately, no setup
 
   function buildModal(){
@@ -545,7 +545,7 @@ document.getElementById('checkAvailBtn').addEventListener('click', function(e){
       var fallback = document.createElement('button');
       fallback.type = 'button';
       fallback.style.cssText = 'width:100%; padding:14px; background:#FFC439; color:#111; border:none; border-radius:3px; font-weight:700; font-size:14px; cursor:pointer;';
-      fallback.innerHTML = 'Ã°¿Ã¯¸ <span data-en="Pay with PayPal">Pay with PayPal</span>';
+      fallback.innerHTML = '<span data-en="Pay with PayPal">Pay with PayPal</span>';
       fallback.addEventListener('click', function(){
         var amount = document.getElementById('payAmount').value;
         if (!amount || Number(amount) <= 0) {
