@@ -452,7 +452,7 @@ footer p{margin-bottom:6px;}
       var fallback = document.createElement('button');
       fallback.type = 'button';
       fallback.style.cssText = 'width:100%; padding:14px; background:#FFC439; color:#111; border:none; border-radius:3px; font-weight:700; font-size:14px; cursor:pointer;';
-      fallback.innerHTML = 'Ã°¿Ã¯¸ <span data-en="Pay with PayPal">Pay with PayPal</span>';
+      fallback.innerHTML = '<span data-en="Pay with PayPal">Pay with PayPal</span>';
       fallback.addEventListener('click', function(){
         var amount = document.getElementById('payAmount').value;
         if (!amount || Number(amount) <= 0) {
