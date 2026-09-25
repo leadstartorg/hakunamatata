@@ -327,7 +327,7 @@ footer p{margin-bottom:6px;}
 <body>
 
 <header>
-  <div class="topbar"><div class="wrap"><span data-en="MonSat 7:00AM6:00PM · Federal Way, WA">MonSat 7:00AM6:00PM · Federal Way, WA</span><span class="phone">469-652-5336</span></div></div>
+  <div class="topbar"><div class="wrap"><span data-en="Mon-Sat 7:00AM-6:00PM · Federal Way, WA">Mon-Sat 7:00AM-6:00PM · Federal Way, WA</span><span class="phone">469-652-5336</span></div></div>
   <nav class="main">
     <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%;">
       <a href="home-mockup.html" class="logo" style="text-decoration:none;" aria-label="Hakuna Matata Auto Repair home">
@@ -367,7 +367,7 @@ footer p{margin-bottom:6px;}
       <div class="faq-col">
         <div class="faq-item">
           <button class="faq-q"><span data-en="Do you work on all makes and models?">Do you work on all makes and models?</span> <span class="plus">+</span></button>
-          <div class="faq-a"><span data-en="Yes  bring it in and we'll take a look. If it's beyond our scope, we'll tell you straight up.">Yes  bring it in and we'll take a look. If it's beyond our scope, we'll tell you straight up.</span></div>
+          <div class="faq-a"><span data-en="Yes bring it in and we'll take a look. If it's beyond our scope, we'll tell you straight up.">Yes  bring it in and we'll take a look. If it's beyond our scope, we'll tell you straight up.</span></div>
         </div>
         <div class="faq-item">
           <button class="faq-q"><span data-en="How far will you travel for a repair?">How far will you travel for a repair?</span> <span class="plus">+</span></button>
@@ -379,7 +379,7 @@ footer p{margin-bottom:6px;}
         </div>
         <div class="faq-item">
           <button class="faq-q"><span data-en="Do you service fleet or business vehicles?">Do you service fleet or business vehicles?</span> <span class="plus">+</span></button>
-          <div class="faq-a"><span data-en="Yes  we take care of personal vehicles as well as fleet and small-business vehicles. Let us know when booking and we'll plan accordingly.">Yes and we take care of personal vehicles as well as fleet and small-business vehicles. Let us know when booking and we'll plan accordingly.</span></div>
+          <div class="faq-a"><span data-en="Yes we take care of personal vehicles as well as fleet and small-business vehicles. Let us know when booking and we'll plan accordingly.">Yes and we take care of personal vehicles as well as fleet and small-business vehicles. Let us know when booking and we'll plan accordingly.</span></div>
         </div>
       </div>
       <div class="faq-col">
@@ -393,7 +393,7 @@ footer p{margin-bottom:6px;}
         </div>
         <div class="faq-item">
           <button class="faq-q"><span data-en="What are your hours?">What are your hours?</span> <span class="plus">+</span></button>
-          <div class="faq-a"><span data-en="MondaySaturday, 7:00AM6:00PM. Closed Sundays.">Monday-Saturday, 7:00AM6:00PM. Closed Sundays.</span></div>
+          <div class="faq-a"><span data-en="Monday-Saturday, 7:00AM-6:00PM. Closed Sundays.">Monday-Saturday, 7:00AM-6:00PM. Closed Sundays.</span></div>
         </div>
         <div class="faq-item">
           <button class="faq-q"><span data-en="Is Samuel the one actually working on my car?">Is Samuel the one actually working on my car?</span> <span class="plus">+</span></button>
@@ -408,7 +408,7 @@ footer p{margin-bottom:6px;}
   <div class="wrap">
     <div class="foot-grid">
       <div><h4>Hakuna Matata Auto Repair</h4><p>1714 S 34th St, Suite F-11</p><p>Federal Way, WA 98003</p></div>
-      <div><h4 data-en="Contact">Contact</h4><p>469-652-5336</p><p data-en="MonSat 7:00AM6:00PM">Mon-Sat 7:00AM6:00PM</p><p data-en="Sunday: Closed">Sunday: Closed</p></div>
+      <div><h4 data-en="Contact">Contact</h4><p>469-652-5336</p><p data-en="MonSat 7:00AM6:00PM">Mon-Sat 7:00AM-6:00PM</p><p data-en="Sunday: Closed">Sunday: Closed</p></div>
       <div><h4 data-en="Service Area">Service Area</h4><p data-en="Within 100 miles of Federal Way, WA">Within 100 miles of Federal Way, WA</p><p data-en="Serving Federal Way & the Greater South Sound">Serving Federal Way & the Greater South Sound</p></div>
     </div>
     <div class="foot-bottom"><span data-en="© 2026 Hakuna Matata Auto Repair. All rights reserved.">© 2026 Hakuna Matata Auto Repair. All rights reserved.</span><span>Quality Work &middot; Honest Prices &middot; Customer Satisfaction</span></div>
@@ -426,14 +426,14 @@ document.querySelectorAll('.faq-q').forEach(function(btn){
 });
 </script>
 <script>
-// Hakuna Matata Auto Repair Ã¢ Pay Invoice modal
+// Hakuna Matata Auto Repair Pay Invoice modal
 // Presents a simple amount entry + two payment options, no jargon required from the customer.
 
 (function(){
   // EDIT THESE THREE VALUES with Samuel's real payment info before going live:
   var STRIPE_PAYMENT_LINK = 'https://buy.stripe.com/REPLACE_WITH_REAL_LINK'; // Create in Stripe Dashboard > Payment Links, enable "customer can change amount"
-  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials Ã¢ enables the full embedded PayPal button
-  var PAYPAL_ME_LINK = 'https://paypal.me/HakunaMatataAutoRepair'; // Fallback used until a PayPal Client ID is configured above Ã¢ just a plain link, works immediately, no setup
+  var PAYPAL_CLIENT_ID = 'REPLACE_WITH_REAL_PAYPAL_CLIENT_ID'; // From developer.paypal.com > Apps & Credentials  enables the full embedded PayPal button
+  var PAYPAL_ME_LINK = 'https://paypal.me/HakunaMatataAutoRepair'; // Fallback used until a PayPal Client ID is configured above just a plain link, works immediately, no setup
 
   function buildModal(){
     var overlay = document.createElement('div');
